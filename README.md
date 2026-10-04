@@ -13,7 +13,7 @@
 |---|---|---|
 | **Perry** | An assistant you message on Telegram, WhatsApp or the web. It runs on your machine, remembers you, keeps to-dos and schedules, and works on your files. Its "brain" is the coding agent you already pay for (Codex, Claude Code, ...), so there's no API bill. | [TheM1N9/perry](https://github.com/TheM1N9/perry) (MIT) |
 | **Agent Reach** | Gives an agent read/search access to the web, YouTube, RSS, GitHub, Twitter/X, Reddit, Bilibili, Xiaohongshu, LinkedIn, V2EX, Xueqiu, podcasts and more. It picks, installs and health-checks the best tool per platform; the agent then calls those tools directly. | [Panniantong/agent-reach](https://github.com/Panniantong/agent-reach) (MIT) |
-| **Perry-Agent** (this repo) | The glue: an installer that sets up both and registers Agent Reach as a Perry skill. | — |
+| **Perry-Agent** (this repo) | The glue: an installer that sets up both and registers Agent Reach as a Perry skill. | **perry** |
 
 This repo contains no copy of either project. It installs them from upstream, so you always get their code and their updates.
 
