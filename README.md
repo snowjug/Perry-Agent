@@ -52,7 +52,15 @@ AGENT_REACH_REF=main sh install.sh   # track Agent Reach's latest instead of the
 PERRY_HOME=/path sh install.sh       # Perry lives somewhere other than ~/.perry
 ```
 
-Windows: install Perry with [its PowerShell installer](https://github.com/TheM1N9/perry/blob/main/INSTALL.md), then run `pipx install git+https://github.com/Panniantong/agent-reach.git@v1.5.0` and copy the skill folder by hand (WSL works with `install.sh`).
+Windows (PowerShell, with [git](https://git-scm.com/download/win) and [Python 3.10+](https://www.python.org/downloads/)):
+
+```powershell
+git clone https://github.com/snowjug/Perry-Agent $HOME\Desktop\Perry-Agent
+cd $HOME\Desktop\Perry-Agent
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+```
+
+Same options as above: `-SkipPerry`, `-Uninstall`, and the `AGENT_REACH_REF` / `PERRY_HOME` environment variables. On Windows, Agent Reach goes into `%USERPROFILE%\.agent-reach-venv`.
 
 ## Use it
 
